@@ -27,7 +27,7 @@ test('create Lead using POM', async ({ page }) => {
     await cl.clickOnCreateLeadButton()
 
     let vp = new viewLeadPage(page)
-    await vp.verifyLead()//comment remove from  akshath
+    await vp.verifyLead()//comment added from  akshath
 
 
 
