@@ -6,11 +6,11 @@ import { LeadPage } from "../Pages/04-leadPage";
 import { CreateLeadPage } from "../Pages/05-createLeadPage";
 import { viewLeadPage } from "../Pages/06-verifyLead";
 
-test('create Lead using POM',async({page})=>{
+test('create Lead using POM', async ({ page }) => {
     let lp = new loginPage(page)
 
     await lp.LoadUrl('https://leaftaps.com/opentaps/control/login')
-    await lp.EnterCredentials('democsr','crmsfa')
+    await lp.EnterCredentials('democsr', 'crmsfa')
     await lp.ClickonLogin()
 
     let wp = new WelcomePage(page)
@@ -27,7 +27,8 @@ test('create Lead using POM',async({page})=>{
     await cl.clickOnCreateLeadButton()
 
     let vp = new viewLeadPage(page)
-    await vp.verifyLead()
+    await vp.verifyLead()//comment added from  akshath
+
 
 
 })
