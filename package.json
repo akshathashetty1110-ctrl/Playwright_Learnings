@@ -1,0 +1,22 @@
+{
+  "name": "pw_june_wd_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "allure-playwright": "^3.12.2"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "csv-parse": "^7.0.0",
+    "dotenv": "^17.4.2"
+  }
+}
