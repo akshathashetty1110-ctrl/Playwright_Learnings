@@ -3,7 +3,7 @@ import { loginPage } from "../Pages/01-loginPage";
 import { WelcomePage } from "../Pages/02-welcomePage";
 import { HomePage } from "../Pages/03-homePage";
 import { LeadPage } from "../Pages/04-leadPage";
-import { CreateLeadPage } from "../Pages/05-createLeadPage";
+import { CreateLeadPage } from "../Pages/05-createLeadPage";//comment added
 import { viewLeadPage } from "../Pages/06-verifyLead";
 
 test('create Lead using POM',async({page})=>{
